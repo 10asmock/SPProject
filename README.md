@@ -52,10 +52,10 @@ Alternatively, you can access and run individual test cases by going into ```src
  
  You will then be able to access the following files:
  
- - ```LoginApplication.java```: A Java file which logs the tester in with a dummy username and password.
- - ```ProductApplication.java```: A Java file which adds a Trust the Process T-Shirt into a cart and validates the product in the cart.
- - ```validateProduct.java```: A Java file which validates the product page Header by checking if it has the correct text.
- - ```validateTitle.java```: A Java file which validates the Header of the Simple Programmer forum after it is loaded and has the correct text.
+ - ```LoginApplication.java```: A test case which logs the tester in with a dummy username and password.
+ - ```ProductApplication.java```: A test case which adds a Trust the Process T-Shirt into a cart and validates the product in the cart.
+ - ```validateProduct.java```: A test case which validates the product page Header by checking if it has the correct text.
+ - ```validateTitle.java```: A test case which validates the Header of the Simple Programmer forum after it is loaded and has the correct text.
  - ```dataProvider.java```: All test case inputs are parameterized in a Java file titled ```dataProvider.java```. The tester is able to change the product size, product amount, and address by inputting the desired data and saving the file.
  
 After testing, an HTML report logging test case success and failures will be created and stored at ```'test-output/ReportHTML.html'```.
