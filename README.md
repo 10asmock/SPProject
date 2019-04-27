@@ -16,6 +16,8 @@ Download this repository into any computer directory or run the following comman
 
 Open a Java IDE such as ```Eclipse``` or ```IntelliJ```
 
+Head into main project directory, scroll down until you see ```testng.xml```.
+
 Right click ```testng.xml```, ```Run As```, and finally ```1 TestNG Suite```
 
 Alternatively, you can access and run individual test cases by going into ```src/test/java```
