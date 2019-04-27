@@ -8,7 +8,7 @@ A Selenium + Java framework which utilizes TestNG, Log4j, and Maven for dependen
 
 Further test cases will be implemented in the near future.
 
-The permission to create SPProject has been authorized by John Sonmez, Founder of Simple Programmer.
+Permission to create SPProject has been authorized by John Sonmez, Founder of Simple Programmer.
 
 ## How to Use
 
@@ -46,5 +46,5 @@ You will then be able to access the following files:
 - ```SimpleProgrammerForum.java```: A Java file which accesses page elements of the main Simple Programmer forum home page in order to log in.
 - ```TTPProductPage.java```: A Java file which contains the main product page and selects a clickable button to head to the Trust the Process T-Shirt store page.
 - ```TTPStorePage.java```: A Java file which contains the Trust the Process T-Shirt store page. Elements to select the size and desired quantity have been implemented before sending the item to cart.
-- ```TTPCartPage.java```: A Java file which heads to the cart page and selects [WIP]
+- ```TTPCartPage.java```: A Java file which heads to the cart page and selects web elements for shipping city, state, zip and validates product in cart.
 
