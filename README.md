@@ -8,6 +8,8 @@ A Selenium + Java framework which utilizes TestNG, Log4j, and Maven for dependen
 
 Further test cases will be implemented in the near future.
 
+The creation of SPProject has been authorized by John Sonmez, Founder of Simple Programmer.
+
 ## How to Use
 
 Download this repository into any computer directory or run the following command: ```https://github.com/10asmock/SPProject.git```
