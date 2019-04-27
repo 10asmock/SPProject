@@ -4,7 +4,7 @@ A Selenium + Java framework which automates https://simpleprogrammer.com/
 
 ## About
 
-A Selenium + Java framework which utilizes TestNG, Log4j, and Maven for dependencies to automate buying a product from https://simpleprogrammer.com/ and ensure login functionalities work. Additionally, HTML reports are generated at ```'test-output/ReportHTML.html'```. Screenshots on failure are in the process of being implemented.
+A Selenium + Java framework which utilizes TestNG, Log4j, and Maven for dependencies to automate adding a product from https://simpleprogrammer.com/ to cart and ensure login functionalities work. Additionally, HTML reports are generated at ```'test-output/ReportHTML.html'```. Screenshots on failure are in the process of being implemented.
 
 Further test cases will be implemented in the near future.
 
