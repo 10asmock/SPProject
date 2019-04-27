@@ -1,0 +1,7 @@
+19:07:43.264 [main] INFO  resources.Base - Driver is initialized
+19:08:06.551 [main] INFO  resources.Base - Successfully added product to cart and validated item
+10:12:51.739 [main] INFO  resources.Base - Driver is initialized
+10:12:57.953 [main] INFO  resources.Base - Successfully validated forum page title
+10:13:05.189 [main] INFO  resources.Base - Driver is initialized
+10:13:13.308 [main] INFO  resources.Base - Successfully validated product
+10:13:17.791 [main] INFO  resources.Base - Driver is initialized

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="SimpleProgrammer.ExtentReportsListeners"/>
+	<listener class-name="SimpleProgrammer.listeners"/>
+</listeners>
+
+  <test name="Validate forum title">
+    <classes>
+      <class name="SimpleProgrammer.validateTitle"/>
+    </classes>
+  </test>
+      
+      <test name="Validate product name">
+      	<classes>
+      		<class name="SimpleProgrammer.validateProduct"/>
+      	</classes>
+      </test>
+      
+      <test name="Login testing">
+      	<classes>
+      		<class name="SimpleProgrammer.LoginApplication"/>
+        </classes>
+      </test>
+      
+      <test name="Product testing">
+      	<classes>
+      		<class name="SimpleProgrammer.ProductApplication"/>
+    	</classes>
+      </test>
+      
+</suite> <!-- Suite -->

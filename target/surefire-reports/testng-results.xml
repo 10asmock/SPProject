@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82544" started-at="2019-04-27T02:06:44Z" finished-at="2019-04-27T02:08:06Z">
+    <groups>
+    </groups>
+    <test name="Validate forum title" duration-ms="25399" started-at="2019-04-27T02:06:44Z" finished-at="2019-04-27T02:07:09Z">
+      <class name="SimpleProgrammer.validateTitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SimpleProgrammer.validateTitle@305b7c14]" name="setup" is-config="true" duration-ms="23562" started-at="2019-04-26T19:06:44Z" finished-at="2019-04-26T19:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:SimpleProgrammer.validateTitle@305b7c14]" name="Login" duration-ms="204" started-at="2019-04-26T19:07:08Z" finished-at="2019-04-26T19:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SimpleProgrammer.validateTitle@305b7c14]" name="teardown" is-config="true" duration-ms="1318" started-at="2019-04-26T19:07:08Z" finished-at="2019-04-26T19:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SimpleProgrammer.validateTitle -->
+    </test> <!-- Validate forum title -->
+    <test name="Validate product name" duration-ms="15580" started-at="2019-04-27T02:07:11Z" finished-at="2019-04-27T02:07:27Z">
+      <class name="SimpleProgrammer.validateProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SimpleProgrammer.validateProduct@687e99d8]" name="setup" is-config="true" duration-ms="15037" started-at="2019-04-26T19:07:11Z" finished-at="2019-04-26T19:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Product()[pri:0, instance:SimpleProgrammer.validateProduct@687e99d8]" name="Product" duration-ms="62" started-at="2019-04-26T19:07:27Z" finished-at="2019-04-26T19:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SimpleProgrammer.validateProduct@687e99d8]" name="teardown" is-config="true" duration-ms="479" started-at="2019-04-26T19:07:27Z" finished-at="2019-04-26T19:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SimpleProgrammer.validateProduct -->
+    </test> <!-- Validate product name -->
+    <test name="Login testing" duration-ms="11026" started-at="2019-04-27T02:07:27Z" finished-at="2019-04-27T02:07:38Z">
+      <class name="SimpleProgrammer.LoginApplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SimpleProgrammer.LoginApplication@38102d01]" name="setup" is-config="true" duration-ms="9055" started-at="2019-04-26T19:07:27Z" finished-at="2019-04-26T19:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:SimpleProgrammer.LoginApplication@38102d01]" name="Login" duration-ms="1808" started-at="2019-04-26T19:07:36Z" data-provider="getData" finished-at="2019-04-26T19:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10asmock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SimpleProgrammer.LoginApplication@38102d01]" name="teardown" is-config="true" duration-ms="159" started-at="2019-04-26T19:07:38Z" finished-at="2019-04-26T19:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SimpleProgrammer.LoginApplication -->
+    </test> <!-- Login testing -->
+    <test name="Product testing" duration-ms="28006" started-at="2019-04-27T02:07:38Z" finished-at="2019-04-27T02:08:06Z">
+      <class name="SimpleProgrammer.ProductApplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SimpleProgrammer.ProductApplication@6f45df59]" name="setup" is-config="true" duration-ms="11624" started-at="2019-04-26T19:07:38Z" finished-at="2019-04-26T19:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BuyItem(java.lang.String, java.lang.String)[pri:0, instance:SimpleProgrammer.ProductApplication@6f45df59]" name="BuyItem" duration-ms="13103" started-at="2019-04-26T19:07:50Z" data-provider="getProductData" finished-at="2019-04-26T19:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyItem -->
+        <test-method status="PASS" signature="CartItem(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SimpleProgrammer.ProductApplication@6f45df59]" name="CartItem" duration-ms="2848" started-at="2019-04-26T19:08:03Z" data-provider="getCartData" finished-at="2019-04-26T19:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pennsylvania]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Silent Hill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80323]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartItem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SimpleProgrammer.ProductApplication@6f45df59]" name="teardown" is-config="true" duration-ms="428" started-at="2019-04-26T19:08:06Z" finished-at="2019-04-26T19:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SimpleProgrammer.ProductApplication -->
+    </test> <!-- Product testing -->
+  </suite> <!-- Suite -->
+</testng-results>

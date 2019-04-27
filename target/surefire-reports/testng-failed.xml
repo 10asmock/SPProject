@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="SimpleProgrammer.ProductApplication">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SimpleProgrammer.ProductApplication -->
+      <class name="SimpleProgrammer.LoginApplication">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SimpleProgrammer.LoginApplication -->
+      <class name="SimpleProgrammer.validateTitle">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SimpleProgrammer.validateTitle -->
+      <class name="SimpleProgrammer.validateProduct">
+        <methods>
+          <include name="Product"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SimpleProgrammer.validateProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+10:13:23.234 [main] INFO  resources.Base - Successfully logged in and validated user credentials
+10:13:27.855 [main] INFO  resources.Base - Driver is initialized
+10:13:52.366 [main] INFO  resources.Base - Successfully added product to cart and validated item
+10:14:36.545 [main] INFO  resources.Base - Driver is initialized
