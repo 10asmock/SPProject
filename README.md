@@ -25,14 +25,23 @@ Right click ```testng.xml```, ```Run As```, and finally ```1 TestNG Suite```
 ### Method 2
 
 Click ```File > Import```
+
 Type "Maven" in the search box under Select an import source:
+
 Select ```Existing Maven Projects```
+
 Click ```Next```
+
 Click ```Browse``` and select the SPProject folder that is the root of the Maven project (contains the ```pom.xml``` file)
+
 Click ```Next```
+
 Click ```Finish```
+
 Open up ```Command Prompt``` and ```cd SPProject```
+
 Do ```mvn compile```
+
 Do ```mvn test```
 
 ### Method 3
