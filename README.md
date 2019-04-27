@@ -12,13 +12,30 @@ Permission to create SPProject has been authorized by John Sonmez, Founder of Si
 
 ## How to Use
 
-Download this repository into any computer directory or run the following command: ```https://github.com/10asmock/SPProject.git```
+In all methods, you will have to download this repository into any computer directory or run the following command: ```https://github.com/10asmock/SPProject.git```
 
 Open a Java IDE such as ```Eclipse``` or ```IntelliJ```
+
+### Method 1
 
 Head into main project directory, scroll down until you see ```testng.xml```.
 
 Right click ```testng.xml```, ```Run As```, and finally ```1 TestNG Suite```
+
+### Method 2
+
+Click ```File > Import```
+Type "Maven" in the search box under Select an import source:
+Select ```Existing Maven Projects```
+Click ```Next```
+Click ```Browse``` and select the SPProject folder that is the root of the Maven project (contains the ```pom.xml``` file)
+Click ```Next```
+Click ```Finish```
+Open up ```Command Prompt``` and ```cd SPProject```
+Do ```mvn compile```
+Do ```mvn test```
+
+### Method 3
 
 Alternatively, you can access and run individual test cases by going into ```src/test/java```
 
@@ -30,8 +47,9 @@ Alternatively, you can access and run individual test cases by going into ```src
  - ```ProductApplication.java```: A Java file which adds a Trust the Process T-Shirt into a cart and validates the product in the cart.
  - ```validateProduct.java```: A Java file which validates the product page Header by checking if it has the correct text.
  - ```validateTitle.java```: A Java file which validates the Header of the Simple Programmer forum after it is loaded and has the correct text.
+ - ```dataProvider.java```: All test case inputs are parameterized in a Java file titled ```dataProvider.java```. The tester is able to change the product size, product amount, and address by inputting the desired data and saving the file.
  
-In addition, all test case inputs are parameterized in a Java file titled ```dataProvider.java```. A tester is able to change the product size, product amount, and address by implementing the desired data and saving the file.
+After testing, an HTML report logging test case success and failures will be created and stored at ```'test-output/ReportHTML.html'```.
 
 ## Accessing pageObjects
 
