@@ -30,3 +30,19 @@ Alternatively, you can access and run individual test cases by going into ```src
  - ```validateTitle.java```: A Java file which validates the Header of the Simple Programmer forum after it is loaded and has the correct text.
  
 In addition, all test case inputs are parameterized in a Java file titled ```dataProvider.java```. A tester is able to change the product size, product amount, and address by implementing the desired data and saving the file.
+
+## Accessing pageObjects
+
+SPProject uses a Page Object Model (POM) design pattern for enhancing test maintenance, reducing code duplication, and tester readability. 
+
+In order to access it go to ```src/main/java```
+
+Collapse a package named ```pageObjects```
+
+You will then be able to access the following files:
+
+- ```SimpleProgrammerForum.java```: A Java file which accesses page elements of the main Simple Programmer forum home page in order to log in.
+- ```TTPProductPage.java```: A Java file which contains the main product page and selects a clickable button to head to the Trust the Process T-Shirt store page.
+- ```TTPStorePage.java```: A Java file which contains the Trust the Process T-Shirt store page. Elements to select the size and desired quantity have been implemented before sending the item to cart.
+- ```TTPCartPage.java```: A Java file which heads to the cart page and selects [WIP]
+
